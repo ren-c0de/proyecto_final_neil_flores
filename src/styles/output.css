@@ -7,7 +7,8 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-600: oklch(0.666 0.179 58.318);
-    --color-slate-800: oklch(0.279 0.041 260.031);
+    --color-green-300: oklch(0.871 0.15 154.449);
+    --color-blue-400: oklch(0.707 0.165 254.624);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
@@ -179,8 +180,11 @@
   .bg-amber-600 {
     background-color: var(--color-amber-600);
   }
-  .bg-slate-800 {
-    background-color: var(--color-slate-800);
+  .bg-blue-400 {
+    background-color: var(--color-blue-400);
+  }
+  .bg-green-300 {
+    background-color: var(--color-green-300);
   }
   .text-2xl {
     font-size: var(--text-2xl);
