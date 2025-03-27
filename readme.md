@@ -43,3 +43,10 @@ Este comando se encargará de compilar los estilos cada vez que uses clases de T
 Ya tienes todo listo para empezar. Explora los archivos, experimenta con el código y diviértete aprendiendo. 🎉
 
 Si tienes dudas, no dudes en preguntar. ¡Éxito en tu proyecto! 💪
+
+## MODIFICACIONES ADICIONALES :D
+1.- Archivo star.svg
+1.1.- Modificación al "fill" y "stroke" al valor "#ef5557" para que el color sea como el solicitado.
+
+2.- Archivo  extra_styles.css
+2.1.- Estilo hover en ".star_icon_orange:hover" para para que al pasar el mouse cambie la opacidad de la estrellita al costado del rating.
