@@ -50,3 +50,8 @@ Si tienes dudas, no dudes en preguntar. ¡Éxito en tu proyecto! 💪
 
 2.- Archivo  extra_styles.css
 2.1.- Estilo hover en ".star_icon_orange:hover" para para que al pasar el mouse cambie la opacidad de la estrellita al costado del rating.
+2.2.- Uso de display:none y display:block (este último con un selector de hermanos adyacentes) para que los controles del guests aparezcan
+y desaparezcan de acuerdo al focus que se hace en input_guests
+2.3.- Se añadieron 2 estilos específicos a #location_list para que se sitúe debajo del #input_location, permitiendo visualizar lo que se
+escribe y la lista de opciones de location desplegada
+2.4.- Se añadieron opacidad y transición al menú toogle para un mejor efecto de visualización al abrir y cerrar dicho menú

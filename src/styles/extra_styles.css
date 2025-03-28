@@ -1,7 +1,30 @@
+/*EFECTO HOVER A LAS ESTRELLAS DE RATING*/
 .star_icon_orange:hover{
-    opacity: 0.5
+    opacity: 0.5;
 }
 
-.search_button{
-    background-color: #ef5557
+/*ESTO ES PARA QUE EL GUESTS_CONTROLS APAREZCA Y DESAPAREZCA
+CUANDO HACEMOS FOCUS EN EL INPUT_GUESTS*/
+#guests_controls{
+    display: none;
+}
+
+#input_guests:focus + #guests_controls {
+    display: block;
+}
+
+/*LISTA DE LUGARES AL HACER FOCUS EN EL INPUT_LOCATION*/
+#location_list {
+    z-index: 10;
+    margin-top: 3rem;
+}
+
+/*EFECTO DE ANIMACIÓN PARA ENTRADA Y SALIDA DEL MENÚ TOOGLE*/
+#menu_toogle {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+#menu_toogle.show {
+    opacity: 1;
 }
