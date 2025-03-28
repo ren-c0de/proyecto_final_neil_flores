@@ -18,7 +18,7 @@ function loadCards(box, staysFiltrados = stays){
         const template = `
             <div class="mb-5">
                 <div class="flex justify-center items-center">
-                    <img class="mb-1 border-none rounded-2xl h-50 md:h-60 xl:h-75" src="${element.photo}" alt="${element.type}">
+                    <img class="mb-1 border-none rounded-2xl h-50 w-full md:h-60 xl:h-75" src="${element.photo}" alt="${element.type}">
                 </div>
                 <div class="flex flex-row justify-between items-center">
                     ${span_superhost}
